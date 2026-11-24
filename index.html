@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Motuuuu... 🐧💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap');
+:root{--pink:#ff8fbd;--deep:#b94e83;--cream:#fff8fb;--ink:#5d3550}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(160deg,#ffe8f2,#fff7fb 55%,#fce0ed);color:var(--ink);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+#scene{position:fixed;inset:0;z-index:0;pointer-events:none}canvas{display:block}
+main{position:relative;z-index:1}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:40px 20px}
+.panel{width:min(720px,94vw);padding:clamp(25px,5vw,52px);border:1px solid #ffffffbd;background:#fff9fbd9;backdrop-filter:blur(13px);border-radius:34px;box-shadow:0 25px 80px #bd6d9230}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;font-weight:700;color:#bd6590}
+h1{font-family:Pacifico,cursive;font-weight:400;font-size:clamp(2.7rem,8vw,5.7rem);line-height:1.12;margin:12px 0;color:#c34f87;text-shadow:0 5px 0 #fff}
+h2{font-family:Pacifico,cursive;font-size:clamp(2rem,5vw,3.3rem);font-weight:400;color:#c34f87;margin:0 0 15px}
+p{line-height:1.8;font-size:1.04rem}.subtitle{max-width:520px;margin:12px auto 25px}
+button{border:0;border-radius:999px;padding:14px 24px;background:linear-gradient(135deg,#ff8fbd,#e66da4);color:white;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 10px 25px #e66da455;transition:.25s}
+button:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 15px 30px #e66da477}
+button.secondary{background:#fff;color:#bd5789;border:1px solid #f3bfd6;box-shadow:none}
+.hint{font-size:.82rem;color:#98677f;margin-top:17px}
+section{min-height:70vh;display:grid;place-items:center;padding:80px 18px}
+.content{width:min(760px,94vw);padding:clamp(25px,5vw,48px);text-align:center;border-radius:30px;background:#fffafce8;border:1px solid white;box-shadow:0 20px 60px #bd6d9222}
+.pill{display:inline-block;background:#ffe3ef;border-radius:999px;padding:8px 14px;color:#b94e83;font-size:.82rem;font-weight:700;margin-bottom:16px}
+.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}
+.reason{padding:18px 12px;border-radius:20px;background:#fff0f6;border:1px solid #ffdfec;font-weight:700}
+.reason span{display:block;font-size:1.7rem;margin-bottom:8px}
+footer{text-align:center;padding:30px 15px 55px;color:#98677f}
+#toast{position:fixed;z-index:5;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;background:#fff;color:#b94e83;padding:12px 18px;border-radius:999px;box-shadow:0 8px 30px #a54d792c;transition:.3s;pointer-events:none}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+.heart{position:fixed;z-index:2;pointer-events:none;animation:floatUp 3s ease-out forwards;font-size:22px}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(35deg);opacity:0}}
+@media(max-width:600px){.reasons{grid-template-columns:1fr}.reason{padding:13px}.panel{border-radius:26px}}
+</style>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js"}}
+</script>
+</head>
+<body>
+<div id="scene"></div>
+<main>
+  <header class="hero">
+    <div class="panel">
+      <div class="eyebrow">heyyyyy motkuuuuu yeeee thodu sa special krne ka try kiya hu... </div>
+      <h1>Motkaaaa bubuuuuu .... 🐧</h1>
+      <p class="subtitle">My goluu moluuuuuu... , meraaaaa panguinnn… Sorryyyyy me aajjjj thodu sa bhull gyaa . tekoo kuchoooo kehna hai bubuuuu. 💗</p>
+      <button id="enter">pass aao naaa , panguin 🐧</button>
+      <div class="hint">I loveeeeee youuuuuuuu babyyyyyyyyy .... ♾️</div>
+    </div>
+  </header>
+
+  <section id="letter">
+    <div class="content">
+      <div class="pill">ek chotuuu sa letterrr tere bondhuuu se bnde se ... </div>
+      <h2>mekooo maafff ker do na mumma ji pleaseeee .... </h2>
+      <p>Me eta important din bhulll gya sorryyyyyy, aur meko pta hai teko bhut hurt kiya ye baattt . aur me koi bhana nhi dungaaa pkkaaaa meri galti hai bilkul hai aur aap maaf bhi nhi kerna sja denaaa . aur tera gussa hona jruri hai babyyyyyy kyukii <b>we</b> matter.</p>
+      <p>Me teko shi me special feel krvana chahta hu taki teko kabhi bhi akela feel na ho . sorryyyyy tekooo kitaa bura lga naaaaa bhut galt baat hai meri ye . me aaj ko change to nhi ker skta , per galti maan skta hu , tu gussa ker na , aur tekoo me manuga taki tu next time se gussa ho me nhi mnata houga na hnaaa bachuuuu sorryyyyyy me teko special feel nhi kerva paaya .</p>
+      <p>eti bdi mistake pta nhi kese ho gyiii motkaaaa bubuuuuuu . <b>per naa me shi me bhut luckyyy feel kerta hu tekoo pakee sachiii me teriiiii kasmmm bachuuuu .</b> 💗</p>
+      <button class="secondary" id="hug">huggyyyy timeeeeeeeee....</button>
+    </div>
+  </section>
+
+  <section id="nine">
+    <div class="content">
+      <div class="pill">9 months • 9 little reasons</div>
+      <h2>tu mera favourite hai rhegaaa hmeshaaa aur tohhh ..... </h2>
+      <div class="reasons">
+        <div class="reason"><span>🌷</span>teriii ye smileeeee ufffff😍</div>
+        <div class="reason"><span>🐧</span>teraa bondhuuuu sa chehraa haayeeeeeeee 💗</div>
+        <div class="reason"><span>✨</span>terii baateeeee ... 💕</div>
+        <div class="reason"><span>💌</span>apni baateeee .... 😘</div>
+        <div class="reason"><span>🫶</span>tera hath pkdnaaa hehe 💗</div>
+        <div class="reason"><span>🌙</span>late nightss baate kerna ... ♾️</div>
+        <div class="reason"><span>😂</span>apni nok jhokkk .. hehe 🤗</div>
+        <div class="reason"><span>💗</span>tera mummmaaa natureeeeee ... 😻</div>
+        <div class="reason"><span>♾️</span>puri ki puriii tu me mar jaava ek dfa nahi her dfaaa ♾️💗💗💗</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="promise">
+    <div class="content">
+      <div class="pill">one promiseeee</div>
+      <h2>tuuu bhut special hai aur rhegiii hmesha meri jaannnnn .... </h2>
+      <p>meko pta hai ki ye enough nhi hota per me full try aur bhi teko manuga tu manna nhi jaldi se . ye to esliye taki teko ye na lage ki i don't care , I care, and I want ki tere sath me meri puri jindgi bitauuuu  — aurrrrr her baat ka dhyaan rkhuu aage se .</p>
+      <p style="font-family:Pacifico,cursive;font-size:1.8rem;color:#c34f87">I loveeeeeeeeeee youuuuuuuuu , my Motkaaaa panguinnn . 💗</p>
+      <button id="surprise">chotuuuu sa surpriseeeee hehe🥰</button>
+    </div>
+  </section>
+  <footer>tere chotuuu se bondhuuu se bacheeee ki trf se  🐧💗</footer>
+</main>
+<div id="toast">huggyy on the way babyyyyyy  💗</div>
+<script type="module">
+import * as THREE from 'three';
+
+const host=document.querySelector('#scene');
+const scene=new THREE.Scene();
+scene.fog=new THREE.Fog(0xffeaf3,9,25);
+const camera=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.1,100);
+camera.position.set(0,1.5,9);
+const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.setSize(innerWidth,innerHeight);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+host.appendChild(renderer.domElement);
+
+scene.add(new THREE.HemisphereLight(0xffffff,0xf0a6c7,2.2));
+const key=new THREE.DirectionalLight(0xffffff,2.4);key.position.set(-3,6,5);scene.add(key);
+const pinkLight=new THREE.PointLight(0xff8fbd,35,15);pinkLight.position.set(3,2,3);scene.add(pinkLight);
+
+const floor=new THREE.Mesh(new THREE.CircleGeometry(8,64),new THREE.MeshStandardMaterial({color:0xffd8e8,roughness:.9}));
+floor.rotation.x=-Math.PI/2;floor.position.y=-1.25;scene.add(floor);
+
+const penguin=new THREE.Group();scene.add(penguin);penguin.position.set(0,-.55,0);
+const black=new THREE.MeshStandardMaterial({color:0x242433,roughness:.78});
+const white=new THREE.MeshStandardMaterial({color:0xfffbff,roughness:.85});
+const orange=new THREE.MeshStandardMaterial({color:0xffa64d,roughness:.6});
+const eyeMat=new THREE.MeshStandardMaterial({color:0x171521});
+function egg(parent,mat,pos,scale){const m=new THREE.Mesh(new THREE.SphereGeometry(1,32,24),mat);m.position.set(...pos);m.scale.set(...scale);parent.add(m);return m;}
+egg(penguin,black,[0,0,0],[.72,.92,.58]);
+egg(penguin,white,[0,-.13,.43],[.52,.68,.19]);
+egg(penguin,black,[0,.76,0],[.56,.56,.53]);
+egg(penguin,white,[0,.64,.42],[.39,.39,.16]);
+for(const x of [-.19,.19]){egg(penguin,eyeMat,[x,.78,.565],[.055,.07,.035]);egg(penguin,white,[x-.015,.81,.59],[.018,.02,.012]);}
+const beak=new THREE.Mesh(new THREE.ConeGeometry(.13,.25,4),orange);beak.rotation.x=Math.PI/2;beak.position.set(0,.58,.67);penguin.add(beak);
+const wings=[];
+for(const x of [-.68,.68]){const w=egg(penguin,black,[x,.02,0],[.22,.53,.28]);w.rotation.z=x<0?-.22:.22;wings.push(w);}
+for(const x of [-.31,.31]){const foot=egg(penguin,orange,[x,-.88,.17],[.23,.1,.31]);foot.rotation.y=x<0?-.15:.15;}
+const scarf=new THREE.Mesh(new THREE.TorusGeometry(.39,.075,10,40),new THREE.MeshStandardMaterial({color:0xff72ad,roughness:.55}));
+scarf.position.set(0,.36,.02);scarf.rotation.x=Math.PI/2.7;penguin.add(scarf);
+const tail=egg(penguin,black,[0,-.2,-.57],[.18,.23,.2]);
+
+// floating heart-shaped decorations made from simple, lightweight shapes
+const hearts=[];
+function makeHeart(x,y,z,s){
+ const g=new THREE.Group();const mat=new THREE.MeshStandardMaterial({color:0xff79ae,roughness:.45,metalness:.05});
+ const a=new THREE.Mesh(new THREE.SphereGeometry(.13,16,12),mat),b=a.clone();a.position.set(-.09,.04,0);b.position.set(.09,.04,0);a.scale.set(1,1, .5);b.scale.set(1,1,.5);
+ const tip=new THREE.Mesh(new THREE.ConeGeometry(.13,.22,4),mat);tip.position.y=-.12;tip.rotation.z=Math.PI;
+ g.add(a,b,tip);g.position.set(x,y,z);g.scale.setScalar(s);scene.add(g);hearts.push({g,base:y,phase:Math.random()*6});
+}
+for(let i=0;i<12;i++)makeHeart((Math.random()-.5)*9,Math.random()*4-1, -1-Math.random()*3,.35+Math.random()*.45);
+
+const particles=[];
+const petalMat=new THREE.MeshStandardMaterial({color:0xffb4d0,side:THREE.DoubleSide});
+for(let i=0;i<70;i++){const m=new THREE.Mesh(new THREE.CircleGeometry(.045,7),petalMat);m.position.set((Math.random()-.5)*13,Math.random()*8-2,(Math.random()-.5)*5);scene.add(m);particles.push({m,speed:.3+Math.random()*.7,phase:Math.random()*5});}
+
+let t=0;
+function animate(){requestAnimationFrame(animate);t+=.016;
+ penguin.position.y=-.55+Math.sin(t*2.2)*.09;
+ penguin.rotation.y=Math.sin(t*.65)*.18;
+ penguin.rotation.z=Math.sin(t*1.3)*.035;
+ wings[0].rotation.z=-.22+Math.sin(t*3)*.12;wings[1].rotation.z=.22-Math.sin(t*3)*.12;
+ hearts.forEach(o=>{o.g.position.y=o.base+Math.sin(t*1.4+o.phase)*.18;o.g.rotation.y=Math.sin(t+o.phase)*.3;});
+ particles.forEach(o=>{o.m.position.y-=o.speed*.012;if(o.m.position.y< -2)o.m.position.y=6;o.m.rotation.z+=.008;});
+ camera.position.x+=(pointerX*.45-camera.position.x)*.02;camera.lookAt(0,.2,0);
+ renderer.render(scene,camera);
+}
+let pointerX=0;addEventListener('pointermove',e=>pointerX=(e.clientX/innerWidth-.5)*2);
+renderer.domElement.style.pointerEvents='auto';
+renderer.domElement.addEventListener('click',()=>{penguin.rotation.y+=Math.PI*2;floatHearts(7);toast('Hehehe! Your panguin says hiiii! 🐧💗');});
+animate();
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+function floatHearts(n=5){for(let i=0;i<n;i++){const h=document.createElement('div');h.className='heart';h.textContent=['💗','💕','💖','🌸'][i%4];h.style.left=(10+Math.random()*80)+'vw';h.style.bottom='0';document.body.append(h);setTimeout(()=>h.remove(),3100);}}
+let toastTimer;function toast(msg){const el=document.querySelector('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2400);}
+document.querySelector('#enter').onclick=()=>{document.querySelector('#letter').scrollIntoView({behavior:'smooth'});floatHearts(12);};
+document.querySelector('#hug').onclick=()=>{floatHearts(20);toast('BIGGEST PANGUIN HUGGGG! 🐧💗');};
+document.querySelector('#surprise').onclick=()=>{floatHearts(35);toast('You are loved more than all these hearts! 💗');};
+</script>
+</body>
+</html>
